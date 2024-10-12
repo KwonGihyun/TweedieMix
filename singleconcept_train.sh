@@ -4,8 +4,8 @@ export VAE_PATH=None
 
 accelerate launch --num_processes 1 concept_training/diffusers_training_xl_new.py \
           --pretrained_model_name_or_path=$MODEL_NAME  \
-          --instance_data_dir=/home/gihyun/benchmark_dataset/pet_dog1 \
-          --output_dir=/home/gihyun/checkpoint_custom/pet_dog1_test \
+          --instance_data_dir=./benchmark_dataset/pet_dog1 \
+          --output_dir=./checkpoint_custom/pet_dog1 \
           --instance_prompt="photo of a <dog1> dog"  \
           --resolution=512 \
           --train_batch_size=1  \
@@ -24,8 +24,8 @@ accelerate launch --num_processes 1 concept_training/diffusers_training_xl_new.p
 # using lora 
 # accelerate launch --num_processes 1 concept_training/diffusers_training_xl_lora.py \
 #           --pretrained_model_name_or_path=$MODEL_NAME  \
-#           --instance_data_dir=/home/gihyun/benchmark_dataset/pet_dog1 \
-#           --output_dir=/home/gihyun/checkpoint_custom/pet_dog1_lora_test \
+#           --instance_data_dir=./benchmark_dataset/pet_dog1 \
+#           --output_dir=./checkpoint_custom/pet_dog1_lora \
 #           --instance_prompt="photo of a <dog1> dog"  \
 #           --resolution=512 \
 #           --train_batch_size=1  \
