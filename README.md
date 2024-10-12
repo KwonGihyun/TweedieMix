@@ -19,6 +19,7 @@ download and install ```xformers``` which is compatible for your own environment
 
 e.g. ```pip install xformers-0.0.26+cu118-cp311-cp311-manylinux2014_x86_64.whl```
 
+If you have problem in installing GroundingDINO, please refer to [original repository](https://github.com/IDEA-Research/GroundingDINO)
 ## Preliminary : Single-concept Training
 Train single concept aware model using [Custom Diffusion](https://github.com/adobe-research/custom-diffusion) framework
 
