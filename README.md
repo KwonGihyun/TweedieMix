@@ -9,7 +9,9 @@ $ conda activate tweediemix
 $ pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu118
 $ pip install -r requirements.txt
 $ git clone https://github.com/KwonGihyun/TweedieMix
-$ cd TweedieMix/text_segment/GroundingDINO
+$ cd TweedieMix/text_segment
+$ git clone https://github.com/IDEA-Research/GroundingDINO.git
+$ cd GroundingDINO/
 $ pip install -e .
 ```
 
