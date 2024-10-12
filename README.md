@@ -77,4 +77,33 @@ For different generation setting, adjust parameters in the script file.
 
    <img src="./asset/manwoman_4599.gif" width="400"/> <img src="./asset/catdog_4155.gif" width="400"/> 
    
-## Source Code is coming soon!
+## References
+If you find this paper useful for your research, please consider citing
+
+```bib
+@InProceedings{
+  kwon2024tweedie,
+  title={TweedieMix: Improving Multi-Concept Fusion for Diffusion-based Image/Video Generation},
+  author={Kwon, Gihyun and Ye, Jong Chul},
+  booktitle={https://arxiv.org/abs/2410.05591},
+  year={2024}
+}
+```
+
+Also please refer to our previous version Concept Weaver
+
+```bib
+@InProceedings{kwon2024concept,
+    author    = {Kwon, Gihyun and Jenni, Simon and Li, Dingzeyu and Lee, Joon-Young and Ye, Jong Chul and Heilbron, Fabian Caba},
+    title     = {Concept Weaver: Enabling Multi-Concept Fusion in Text-to-Image Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {8880-8889}
+}
+```
+
+## Acknowledgement
+
+Our source code is based on [Plug-and-Play Diffusion](https://pnp-diffusion.github.io/) , [Custom Diffusion](https://github.com/adobe-research/custom-diffusion), [LangSAM](https://github.com/luca-medeiros/lang-segment-anything)
+
